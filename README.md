@@ -41,6 +41,7 @@ This project involves scraping financial metrics data from various web sources a
 To run the scripts manually at a specific time, simply execute the desired script. For example, to run the market cap scraper:
 ```sh
 python market_cap_scraper.py
+```
 To run all scripts at once, use the master script:
 
 python run_all_scrapers.py
