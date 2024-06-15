@@ -53,7 +53,7 @@ python run_all_scrapers.py
 - Scrapes market capitalization data.
 - Saves the data to market_cap_data.csv.
 
-2.earnings_scraper.py
+2. earnings_scraper.py
 - Scrapes earnings data.
 - Saves the data to earnings_data.csv.
 
