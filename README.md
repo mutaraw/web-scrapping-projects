@@ -43,52 +43,53 @@ To run the scripts manually at a specific time, simply execute the desired scrip
 python market_cap_scraper.py
 ```
 To run all scripts at once, use the master script:
-
+```sh
 python run_all_scrapers.py
+```
 
 ## Scripts Overview
 
-## market_cap_scraper.py
+1. market_cap_scraper.py
 - Scrapes market capitalization data.
 - Saves the data to market_cap_data.csv.
 
-## earnings_scraper.py
+2.earnings_scraper.py
 - Scrapes earnings data.
 - Saves the data to earnings_data.csv.
 
-## revenue_scraper.py
+3. revenue_scraper.py
 - Scrapes revenue data.
 - Saves the data to revenue_data.csv.
 
-## employees_scraper.py
+4. employees_scraper.py
 - Scrapes the number of employees data.
 - Saves the data to employees_data.csv.
 
-## dividend_yield_scraper.py
+5. dividend_yield_scraper.py
 - Scrapes dividend yield data.
 - Saves the data to dividend_yield_data.csv.
 
-## total_assets_scraper.py
+6. total_assets_scraper.py
 - Scrapes total assets data.
 - Saves the data to total_assets_data.csv.
 
-## net_assets_scraper.py
+7. net_assets_scraper.py
 - Scrapes net assets data.
 - Saves the data to net_assets_data.csv.
 
-## liabilities_scraper.py
+8. liabilities_scraper.py
 - Scrapes liabilities data.
 - Saves the data to liabilities_data.csv.
 
-## debt_scraper.py
+9. debt_scraper.py
 - Scrapes debt data.
 - Saves the data to debt_data.csv.
 
-## cash_on_hand_scraper.py
+10. cash_on_hand_scraper.py
 - Scrapes cash on hand data.
 - Saves the data to cash_on_hand_data.csv.
 
-## run_all_scrapers.py
+11. run_all_scrapers.py
 - Runs all the individual scrapers sequentially.
 - master_scheduler.py
 - (Optional) Uses schedule to run all scripts at a specified time daily.
